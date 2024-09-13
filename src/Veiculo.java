@@ -1,7 +1,7 @@
 public class Veiculo {
-    private String marca;
-    private String modelo;
-    private int ano;
+    private final String marca;
+    private final String modelo;
+    private final int ano;
 
     public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;
