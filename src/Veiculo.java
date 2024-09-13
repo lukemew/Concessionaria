@@ -10,7 +10,6 @@ public class Veiculo {
     }
 
     public void exibirDetalhes() {
-        System.out.println("Obtendo informações do veículo: ");
         System.out.println("Marca: " + this.marca);
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Ano: " + this.ano);
@@ -20,15 +19,4 @@ public class Veiculo {
         System.out.println("Agora o veículo '" + this.modelo + "' Está se movendo");
     }
 
-    public String getMarca() {
-        return marca;
-    }
-
-    public String getModelo() {
-        return modelo;
-    }
-
-    public int getAno() {
-        return ano;
-    }
 }
